@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .inline-block {
     display: inline-block;
@@ -73,6 +75,7 @@ h1 {
 }
 h4 {
     color: #e5e5e5;
+    font-size: 24px;
 }
 #button {
     margin-left: auto;
@@ -81,9 +84,10 @@ h4 {
     }
 button {
     padding: 15px 32px;
-    font-size: 16px;
+    font-size: 24px;
     color: #373738;
     background-color: #e5e5e5;
+    border-radius: 12px;
 }
 #logo {
     width: 300px;
@@ -144,11 +148,32 @@ h3 {
 }
 #vap {
     padding-top: 100px;
+    text-decoration: underline;
 }
 footer {
     background-color: #373738;
     color: white;
     align-content: flex-end;
+}
+#flip, #flipUp {
+    text-decoration: underline;
+}
+#panel, #flip, #flipUp{
+  color: #e5e5e5;
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  border: none;
+  font-size: 45px;
+}
+#panel {
+  padding: 50px;
+  display: none;
+  background-color: black;
+}
+.mySkills {
+    border-bottom-style: solid;
+    border-color: #e5e5e5;
 }
 @media only screen and (max-width: 600px) {
     #button {
@@ -164,6 +189,7 @@ footer {
 }
     h4 {
     color: #e5e5e5;
+    font-size: larger;
 }
 .mySkills {
     width: 100%;
