@@ -1,0 +1,287 @@
+body {
+    background-color: black;
+}
+.inline-block {
+    display: inline-block;
+    color: white;
+    vertical-align: top;
+}
+.inline-block li {
+    display: inline;
+    padding: 25px;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    }
+nav {
+    height: 0 auto;
+    width: 100%;
+    background-color: #373738;
+}
+ul {
+    margin-left: auto;
+    font-family: Roboto;
+    font-size: 24px;
+    text-align: left;
+    color: #e5e5e5;
+    display: inline-flex;
+}
+.heroImg {
+    height: 750px;
+    padding: 25px;
+}
+.content {
+    width: fit-content;
+    margin: 0 auto;
+    display: inline-flex;
+}
+p {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e5e5e5;
+}
+img {
+    width: 550px;
+}
+footer li {
+    display: inline-block;
+    padding: 25px;
+}
+h1 {
+    width: 648px;
+  height: 45.7px;
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e5e5e5;
+}
+h4 {
+    color: #e5e5e5;
+}
+#button {
+    margin-left: auto;
+    padding: 50px;
+    text-align: center;
+    }
+button {
+    padding: 15px 32px;
+    font-size: 16px;
+    color: #373738;
+    background-color: #e5e5e5;
+}
+#logo {
+    width: 300px;
+    }
+    * {
+        text-align: center;
+    }
+h3 {
+        color: #e5e5e5;
+        font-size: 45px;
+    }
+.mySkills h1 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.myWork h1 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.flexContainer div {
+    width: 25%;
+    padding: 25px;
+}
+.workGrid {
+    display: grid;
+}
+#userResearch img {
+    width: 150px;
+    }
+#userEmpathy img {
+    width: 150px;
+}
+#qualInterview img {
+    width: 150px;
+}
+.myWork {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.myWork p {
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+.mySkills p {
+    text-align: center;
+}
+#nsaImage {
+    padding-top: 150px;
+}
+#vap {
+    padding-top: 100px;
+}
+footer {
+    background-color: #373738;
+    color: white;
+    align-content: flex-end;
+}
+@media only screen and (max-width: 600px) {
+    #button {
+        padding-left: 100px;
+        }
+.workGrid {
+        width: 100%;
+        padding: 15px;
+        padding-left: 50px;
+    }    
+.content {
+    display: grid;
+}
+    h4 {
+    color: #e5e5e5;
+}
+.mySkills {
+    width: 100%;
+    text-align: center;
+}
+.flexContainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    }
+.flexContainer div {
+    width: 100%;
+    padding: 25px;
+    }
+p {     
+    width: 100%;
+    margin-left: 0 auto;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e5e5e5;
+}
+header {
+    width: 100%;
+    height: 250px;
+    }
+section {
+    width: 100%;
+}
+.inline-block {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+h1 {
+    width: 100%;
+    height: 75px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #e5e5e5;
+}
+h3 {
+    width: 100%;
+    height: 150px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #e5e5e5;
+}
+.content p {
+    width: 100%;
+    }
+#picofme {
+    width: 100%;
+    align-self: auto;
+}
+.inline-block {
+    background-color: black;
+}
+img {
+    width: 50%;
+}
+#vap {
+    width: 100%;
+    padding-left: 50px;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+.inline-block li {
+    padding: 5px;
+}
+.inline-block {
+    width: 100%;
+}
+footer li {
+    padding: 5px;
+    }
+}
+#vap {
+    padding-top: 25px;
+}
+.myWork {
+    width: 100%;
+}
+.myWork p {
+    padding: 5px;
+    text-align: center;
+}
+* {
+    padding-left: 0 auto;
+}
+#myWorkHeader {
+    width: 100%;
+    padding: 15px;
+}
+#uxSkillsHeader {
+    width: 100%;
+    padding: 15px;
+}
+}
